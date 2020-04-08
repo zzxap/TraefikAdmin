@@ -1,6 +1,8 @@
 # TraefikUI
 1.Download  the traefik in https://github.com/containous/traefik/releases
 
+  tar zxvf traefik_v2.2.0_linux_amd64.tar.gz 
+
 2.run traefik with  ./traefik --configFile=traefik.etcd.toml
 
   traefik link to etcd in traefik.etcd.toml entrypoint
