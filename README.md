@@ -2,6 +2,7 @@
 1.Download  the traefik in https://github.com/containous/traefik/releases
 
 2.run traefik with  ./traefik --configFile=traefik.etcd.toml
+
   traefik link to etcd in traefik.etcd.toml entrypoint
   
 3. run ./TraefikAdmin  
