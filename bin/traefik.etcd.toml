@@ -1,0 +1,54 @@
+[log]
+ level = "ERROR"
+
+[entryPoints]
+  [entryPoints.http]
+   address = ":80"
+
+[entryPoints.https]
+  address = ":443"
+
+[entryPoints.traefik]
+  address = ":8090"
+ 
+[entryPoints.app]
+   address = ":8098"
+[entryPoints.httpsweb]
+   address = ":8097"
+
+[entryPoints.tcpproxy]
+   address = ":8095"
+
+[providers]
+ [providers.docker]
+#  Watch = true
+  exposedByDefault = false
+
+[providers.ETCD]
+    rootKey = "traefik"
+    endpoints = ["127.0.0.1:2379"]
+
+[accessLog]
+  filePath = "./access.log"
+  format = "json"
+[tracing]
+   serviceName = "traefik"
+
+
+[retry]
+
+[api]
+dashboard = true
+insecure = true
+
+
+#https配置
+[certificatesResolvers.sample.acme]
+  email = "email@xxx.com"
+  storage = "acme.json"
+  [certificatesResolvers.sample.acme.httpChallenge]
+    entryPoint = "http"
+
+
+
+
