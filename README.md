@@ -16,7 +16,7 @@ TraefikAdmin，
 A web page manage Traefik KV ETCD ，
 manage entrypoint route service middleware
 
-
+![ui](https://github.com/zzxap/TraefikUI/blob/master/images/8.PNG)
 ![ui](https://github.com/zzxap/TraefikUI/blob/master/images/1.PNG)
 ![ui](https://github.com/zzxap/TraefikUI/blob/master/images/2.PNG)
 ![ui](https://github.com/zzxap/TraefikUI/blob/master/images/3.PNG)
