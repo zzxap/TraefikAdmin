@@ -45,7 +45,7 @@ manage entrypoint route service middleware
 
 ![ui](https://github.com/zzxap/TraefikUI/blob/master/images/7.PNG)
 
-
+![ui](https://github.com/zzxap/TraefikUI/blob/master/images/wec.jpg)
 
 
 
