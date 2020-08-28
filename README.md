@@ -12,6 +12,10 @@
 
   traefik link to etcd in traefik.etcd.toml entrypoint
   
+  then check http://127.0.0.1:port/dashboard/#/ open traefik's dashboard
+  
+  if open success ,countinue
+  
 4. chmod 771 TraefikAdmin     run  ./TraefikAdmin   
 
  TraefikAdmin will read the config in config.ini
