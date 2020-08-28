@@ -25,6 +25,8 @@
  
 5. then open url http://ip:port/web/
 
+  the port is set in config.ini http_port default is 8093
+
    you can manage the service route in this webpage.
  
 
