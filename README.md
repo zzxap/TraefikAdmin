@@ -8,12 +8,12 @@
   chmod 771 traefik
  2.Install ETCD and set ETCD's IP in  config.ini
  
-3.run traefik with  ./traefik --configFile=traefik.etcd.toml
+3.run traefik with  ./traefik --configFile=traefik.toml
 
   traefik link to etcd in traefik.etcd.toml entrypoint
   
   then check http://127.0.0.1:8090/dashboard/#/ open traefik's dashboard 
-  port 8090 is set in traefik.etcd.toml
+  port 8090 is set in traefik.toml
   
   if open success ,countinue
   
@@ -21,7 +21,7 @@
 
  TraefikAdmin will read the config in config.ini
  
- set the etcd_server int config.ini the same in traefik.etcd.toml
+ set the etcd_server int config.ini the same in traefik.toml
  
 5. then open url http://ip:port/web/
 
