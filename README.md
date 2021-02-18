@@ -37,9 +37,9 @@ A web page manage Traefik KV ETCD ，
 manage entrypoint route service middleware
 
 
-![ui](https://github.com/zzxap/TraefikUI/blob/master/images/8.PNG?raw=true)
+![ui](http://www.iosbuy.com/app/images/traefik/3.PNG)
 
-![ui](https://github.com/zzxap/TraefikUI/blob/master/images/9.PNG?raw=true)
+![ui](http://www.iosbuy.com/app/images/traefik/5.PNG)
 
 ![ui](https://github.com/zzxap/TraefikUI/blob/master/images/1.PNG?raw=true)
 
