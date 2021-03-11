@@ -1,6 +1,6 @@
 
 
-# TraefikUI
+# TraefikAdmin
 1.Download  the traefik in https://github.com/containous/traefik/releases
 
   tar zxvf traefik_v2.2.0_linux_amd64.tar.gz 
