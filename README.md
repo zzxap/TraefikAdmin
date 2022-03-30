@@ -10,7 +10,7 @@
  
 3.run traefik with  ./traefik --configFile=traefik.toml
 
-  traefik link to etcd in traefik.etcd.toml entrypoint
+  traefik link to etcd in traefik.toml entrypoint
   
   then check http://127.0.0.1:8090/dashboard/#/ open traefik's dashboard 
   port 8090 is set in traefik.toml
