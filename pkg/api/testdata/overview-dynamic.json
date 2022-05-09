@@ -1,0 +1,54 @@
+{
+	"features": {
+		"accessLog": false,
+		"metrics": "",
+		"tracing": "",
+		"hub": false
+	},
+	"http": {
+		"middlewares": {
+			"errors": 1,
+			"total": 3,
+			"warnings": 0
+		},
+		"routers": {
+			"errors": 1,
+			"total": 3,
+			"warnings": 1
+		},
+		"services": {
+			"errors": 1,
+			"total": 3,
+			"warnings": 1
+		}
+	},
+	"tcp": {
+		"middlewares": {
+			"errors": 1,
+			"total": 3,
+			"warnings": 0
+		},
+		"routers": {
+			"errors": 1,
+			"total": 3,
+			"warnings": 1
+		},
+		"services": {
+			"errors": 1,
+			"total": 3,
+			"warnings": 1
+		}
+	},
+	"udp": {
+		"routers": {
+			"errors": 0,
+			"total": 0,
+			"warnings": 0
+		},
+		"services": {
+			"errors": 0,
+			"total": 0,
+			"warnings": 0
+		}
+	}
+}
